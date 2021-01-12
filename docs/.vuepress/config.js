@@ -1,7 +1,19 @@
 module.exports = {
     title:'blessbless',
     theme: 'reco',
+    // 移动端优化
+    head: [
+        ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
+        ],
     themeConfig:{   
+        // logo
+        logo:'/public/user.jpg',
+        // author
+        author:'qcl',
+        // 导航按钮
+        nav:[
+            {text: 'TimeLine', link: '/timeline/', icon: 'reco-date'}
+        ],
         blogConfig: {
             category: {
               location: 2,     // 在导航栏菜单中所占的位置，默认2
