@@ -17,12 +17,18 @@ module.exports = {
         // logo
         logo:'/cj.jpg', // 左上角logo
         // 头像
-        authorAvatar: '/yq.jpg', // 个人头像
+        authorAvatar: '/yq.jpg', // 个人头像gbbbbbbg
         // author
         author:'lan', //作者姓名
         // 导航按钮 
         nav:[
+            {text:'Home', link:'/'},
+            {text: '前端',items:[
+              { text: "html", link:"/web/html/"},
+              { text: "css", link:"/web/css/"},
+            ]},
             {text: '时间轴', link: '/timeline/', icon: 'reco-date'},
+            {text: 'live', link:'/live/'}
         ],
         blogConfig: {
             category: {
